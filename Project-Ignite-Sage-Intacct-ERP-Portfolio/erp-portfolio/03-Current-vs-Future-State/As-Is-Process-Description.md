@@ -1,0 +1,9 @@
+# As-Is Process Description — Project Ignite
+
+| Process Name | Current Steps | Systems Used | Issues | Controls |
+|---|---|---|---|---|
+| Month-End Close | 1) Each site closes local QuickBooks file 2) Controller manually exports trial balances 3) Consolidation built in Excel workbook 4) Intercompany eliminations entered manually 5) Reports distributed via email | QuickBooks Enterprise (x2 files), Excel | 12–15 business day close; high risk of version-control errors in Excel workbook | Excel workbook is password-protected; no formal review checklist |
+| AP Invoice Processing | 1) Vendor invoice received by email/mail 2) AP clerk manually compares to paper PO 3) Clerk keys invoice into QuickBooks 4) Manager approves via printed voucher | QuickBooks Enterprise, paper POs | No 3-way match automation; approval evidence is paper-based and easily lost | Manual manager sign-off on printed voucher |
+| Job Costing | 1) Shop floor logs labor/material hours in standalone spreadsheet 2) Ops manager updates spreadsheet weekly 3) Spreadsheet is manually reconciled to QuickBooks job class monthly | Shop-floor Excel tool, QuickBooks class tracking | Spreadsheet frequently 5–10 days out of date; no real-time visibility for PMs | None — spreadsheet has no access controls |
+| Sales Order Creation | 1) Sales rep closes opportunity in Salesforce 2) Sales admin re-keys order details into QuickBooks 3) Order routed to Operations via email | Salesforce, QuickBooks, email | 1–2 day delay per large order; transcription errors | None formal; occasional order review by Sales Director |
+| Milestone Billing | 1) PM manually tracks job % complete in spreadsheet 2) Controller manually drafts invoice in QuickBooks referencing job spreadsheet | Job spreadsheet, QuickBooks | Billing delays when PM is unavailable; risk of over/under-billing | Controller review before invoice send |
